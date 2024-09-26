@@ -1,0 +1,150 @@
+@import "/src/styles/variables";
+
+.benefits {
+  padding: 77px 66.6px 0 106px;
+  z-index: 0;
+  height: 530px;
+  background: linear-gradient(
+    180deg,
+    #f9f0e5 0%,
+    rgba(249, 240, 229, 0.18) 43.05%,
+    rgba(249, 240, 229, 0) 100%
+  );
+
+  &-partners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .partner {
+    max-height: 58px;
+  }
+
+  .eco-stylist {
+    width: 178px;
+    height: 22px;
+  }
+
+  .canadian {
+    width: 111px;
+    height: 52px;
+  }
+
+  .jilian {
+    width: 271px;
+    height: 53px;
+  }
+
+  .hub {
+    width: 194px;
+    height: 37px;
+  }
+
+  .trendhunter {
+    width: 192px;
+    height: 58px;
+  }
+
+  &-content {
+    display: flex;
+    margin-top: 110px;
+  }
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.6px;
+  color: #868787;
+}
+
+.loungewear {
+  margin-right: 210px;
+
+  &-title {
+    width: 530px;
+    height: 40px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.28px;
+    color: $dark-blue;
+  }
+
+  &-container {
+    display: flex;
+    align-items: center;
+    max-height: 42px;
+  }
+
+  &-container > img {
+    width: 42px;
+    height: 42px;
+    margin-right: 32px;
+  }
+
+  &-container > p {
+    width: 305px;
+    height: 20px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.88px;
+    color: $dark-blue;
+  }
+
+  &-text {
+    margin-top: 14px;
+    margin-left: 74px;
+    width: 497px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.45px;
+    color: #6c6c6c;
+  }
+}
+
+.pictures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 54px;
+  position: relative;
+
+  &__mini {
+    display: flex;
+    gap: 7px;
+    position: absolute;
+    bottom: 60px;
+  }
+}
+
+.pictures > p {
+  font-family: "Sofie Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.39px;
+  color: $main-text;
+  margin-top: 13px;
+}
+.women {
+  width: 433px;
+  height: 648px;
+  position: relative;
+
+  &-arrow {
+    position: absolute;
+  }
+}

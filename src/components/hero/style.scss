@@ -2,12 +2,15 @@
 
 .hero {
   margin-top: 69px;
-  padding: 0 108px 0 108px;
+  padding: 0 108px 62px 108px;
+  position: relative;
+  z-index: 0;
 
   &-title {
     width: 592px;
     height: 87px;
     margin-top: 61.67px;
+    margin-bottom: 25px;
     font-family: "Sofia Sans", sans-serif;
     font-weight: 400;
     font-size: 38px;
@@ -19,13 +22,16 @@
   &-description {
     display: flex;
     align-items: center;
+    height: 50px;
   }
 
   &-description > p {
+    margin-bottom: 23px;
     font-family: "Sofia Sans", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 23px;
+    letter-spacing: 0.45px;
     color: $main-text;
   }
 
@@ -44,7 +50,7 @@
     font-size: 18px;
     line-height: 23.35px;
     text-align: center;
-    margin-top: 39px;
+    margin-top: 16px;
     position: relative;
 
     &-icon {
