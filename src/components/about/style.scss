@@ -1,0 +1,73 @@
+@import "/src/styles/variables";
+
+.about {
+  height: 803px;
+  padding-left: 132px;
+  padding-top: 133px;
+  display: flex;
+  align-items: flex-start;
+  background: #f0eeef;
+}
+
+.pictures {
+    width: 523.69px;
+    position: relative;
+
+    &-girl1 {
+        position: absolute;
+        top: -50px;
+        left: 0;
+    }
+
+    &-girl2 {
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+    }
+
+    &-middle {
+        width: 381.64px;
+        height: 570px;
+    }
+}
+.description {
+    margin-left: 103px;
+
+    &-title {
+        margin: 0 0 39px 0;
+        font-family: "Sofia Sans", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 1.28px;
+        color: $dark-blue;
+    }
+
+    &-text {
+        width: 619px;
+        margin-bottom: 29px;
+        font-family: "Sofia Sans", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: 0.45px;
+        color: $main-text;
+    }
+
+    &-button {
+        width: 362px;
+        height: 56px;
+        border: none;
+        margin-top: 9px;
+        border-radius: 5px;
+        font-family: "Sofia Sans", sans-serif;
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 23.35px;
+        letter-spacing: 0.54px;
+        color: $white;
+        background: $dark-blue;
+
+    }
+}
+
