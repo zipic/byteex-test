@@ -1,0 +1,17 @@
+@import "/src/styles/variables";
+
+.header {
+  width: 1464px;
+  height: 36px;
+  background: $background-brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-text {
+    font-size: 11px;
+    line-height: 35px;
+    letter-spacing: 8%;
+    color: #565656;
+  }
+}
