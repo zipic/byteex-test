@@ -1,7 +1,9 @@
+import Message from "../message/Message";
 import "./style.scss";
 
 export const Hero = () => {
   return (
+    <>
     <div className="hero">
       <img className="logo" src="/icons/logo.png" alt="logo" />
 
@@ -50,6 +52,8 @@ export const Hero = () => {
         </section>
       </div>
     </div>
+    <Message/>
+    </>
   );
 };
 

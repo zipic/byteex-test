@@ -1,0 +1,11 @@
+@import "/src/styles/variables";
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 77px 66.6px 0 106px;
+    z-index: 0;
+    background: linear-gradient(180deg, #F9F0E5 0%, rgba(249, 240, 229, 0.18) 43.05%, rgba(249, 240, 229, 0) 100%);
+}
