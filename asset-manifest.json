@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/byteex-test/static/css/main.06791d8e.css",
-    "main.js": "/byteex-test/static/js/main.6339b346.js",
+    "main.js": "/byteex-test/static/js/main.caa116a8.js",
     "static/js/453.b6766926.chunk.js": "/byteex-test/static/js/453.b6766926.chunk.js",
     "index.html": "/byteex-test/index.html",
     "main.06791d8e.css.map": "/byteex-test/static/css/main.06791d8e.css.map",
-    "main.6339b346.js.map": "/byteex-test/static/js/main.6339b346.js.map",
+    "main.caa116a8.js.map": "/byteex-test/static/js/main.caa116a8.js.map",
     "453.b6766926.chunk.js.map": "/byteex-test/static/js/453.b6766926.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06791d8e.css",
-    "static/js/main.6339b346.js"
+    "static/js/main.caa116a8.js"
   ]
 }
