@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Benefits from "./components/benefits/Benefits";
 import About from "./components/about/About";
+import Order from "./components/order/Order";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Hero />
       <Benefits />
-      <About/>
+      <About />
+      <Order />
     </div>
   );
 }
