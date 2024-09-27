@@ -1,0 +1,116 @@
+@import "/src/styles/variables";
+
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 75px;
+
+  &-title {
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.28px;
+    color: $dark-blue;
+    margin: 0;
+    margin-bottom: 46px;
+  }
+
+  &-box {
+    height: 321px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &-button {
+    width: 369px;
+    height: 56px;
+    background: $dark-blue;
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.35px;
+    letter-spacing: 0.72px;
+    margin-top: 56px;
+    margin-bottom: 11px;
+
+    &-icon {
+      margin-left: 10px;
+    }
+  }
+
+  &-rate {
+    display: flex;
+    align-items: center;
+    gap: 14.44px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    color: #828282;
+    ;
+  }
+}
+
+.one,
+.two {
+  width: 346px;
+  height: 321px;
+  border-radius: 8px;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  font-family: "Sofia Sans",sans-serif;
+  font-weight: 400;
+}
+
+.one-article {
+  max-width: 293px;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.45px;
+  color: $main-text;
+}
+
+.one-title,.two-title {
+  color: $dark-blue;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.88px;
+  margin: 0;
+}
+
+.one {
+    background: #f0eeef;
+
+    &-cart {
+      width: 51px;
+      height: 51px;
+    }
+
+    &-sun {
+      width: 60px;
+      height: 60px;
+    }
+}
+
+.two {
+  background: #f9f0e6;
+
+  &-car {
+    width: 68.5px;
+    height: 49px;
+  }
+}
