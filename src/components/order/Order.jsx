@@ -13,7 +13,7 @@ export const Order = () => {
           </p>
         </div>
         <div className="two">
-          <img className="two-car" src="public/icons/car-clear.png" alt="car" />
+          <img className="two-car" src="./icons/car-clear.png" alt="car" />
           <p className="two-title">We ship.</p>
           <p className="one-article">
             We ship your items within 1-2 days of receiving your order.

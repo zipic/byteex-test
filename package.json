@@ -1,6 +1,6 @@
 {
   "name": "byteex-test",
-  "homepage": "http://zipic.github.io/byteex-test",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -40,11 +40,23 @@
     letter-spacing: 0.72px;
     margin-top: 56px;
     margin-bottom: 11px;
+
+    &-icon {
+      margin-left: 10px;
+    }
   }
 
   &-rate {
     display: flex;
     align-items: center;
+    gap: 14.44px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    color: #828282;
+    ;
   }
 }
 
@@ -77,6 +89,7 @@
   font-size: 22px;
   line-height: 40px;
   letter-spacing: 0.88px;
+  margin: 0;
 }
 
 .one {
