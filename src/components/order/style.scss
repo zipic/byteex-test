@@ -56,7 +56,6 @@
     line-height: 20px;
     letter-spacing: 0.24px;
     color: #828282;
-    ;
   }
 }
 
@@ -72,7 +71,7 @@
   align-items: center;
   text-align: center;
   gap: 14px;
-  font-family: "Sofia Sans",sans-serif;
+  font-family: "Sofia Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -84,7 +83,8 @@
   color: $main-text;
 }
 
-.one-title,.two-title {
+.one-title,
+.two-title {
   color: $dark-blue;
   font-size: 22px;
   line-height: 40px;
@@ -93,17 +93,17 @@
 }
 
 .one {
-    background: #f0eeef;
+  background: #f0eeef;
 
-    &-cart {
-      width: 51px;
-      height: 51px;
-    }
+  &-cart {
+    width: 51px;
+    height: 51px;
+  }
 
-    &-sun {
-      width: 60px;
-      height: 60px;
-    }
+  &-sun {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .two {

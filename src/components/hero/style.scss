@@ -1,8 +1,10 @@
 @import "/src/styles/variables";
 
 .hero {
+  width: 100%;
+  height: 621px;
   margin-top: 69px;
-  padding: 0 108px 62px 108px;
+  padding: 0 108px 0px 108px;
   position: relative;
   z-index: 0;
 
@@ -50,7 +52,7 @@
     font-size: 18px;
     line-height: 23.35px;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 39px;
     position: relative;
 
     &-icon {
@@ -91,7 +93,7 @@
       rgba(249, 240, 229, 0.217) 100%
     );
     position: absolute;
-    left: -110px;
+    left: -111px;
     z-index: 0;
   }
 
@@ -104,7 +106,7 @@
       rgba(249, 240, 229, 0.217) 100%
     );
     position: absolute;
-    right: -110px;
+    right: -111px;
     z-index: 0;
   }
 }
