@@ -36,9 +36,9 @@ export const Reviews = () => {
           </div>
           <p className="card-article">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque sed sollicitudin dolor, non sodales justo. Aenean eget
+            Pellentesque sed sollicitudin dolor, non sodales justo. Aenean eget <br />
             aliquet mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque sed sollicitudin dolor, non sodales.
+            Pellentesque sed <br />sollicitudin dolor, non sodales.
           </p>
         </div>
         <div className="card">
@@ -51,7 +51,7 @@ export const Reviews = () => {
           </div>
           <p className="card-article">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque sed sollicitudin dolor, non sodales justo. Aenean eget
+            Pellentesque sed sollicitudin dolor, non sodales justo. <br /> Aenean eget
             aliquet mi.
           </p>
         </div>
