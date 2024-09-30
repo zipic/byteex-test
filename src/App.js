@@ -7,6 +7,7 @@ import Order from "./components/order/Order";
 import Reviews from "./components/reviews/Reviews";
 import Faq from "./components/faq/Faq";
 import Banner from "./components/banner/Banner";
+import Final from "./components/final/Final";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Reviews />
       <Faq/>
       <Banner/>
+      <Final/>
     </div>
   );
 }
