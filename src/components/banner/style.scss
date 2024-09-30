@@ -1,0 +1,55 @@
+@import "/src/styles/variables";
+
+.banner {
+  height: 246px;
+  background: #f0eeef;
+  padding: 39px 297px 43px 297px;
+  margin-top: 47px;
+
+  &-title {
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: $dark-blue;
+    margin: 0 0 18px 0;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &-two {
+    width: 252px;
+    border-right: 1px solid #c4c4c480;
+    border-left: 1px solid #c4c4c480;
+    margin-inline: 50px;
+  }
+}
+
+.weight {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: $dark-blue;
+  margin: 13px 0 0 0;
+}
+
+.saved {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: $dark-blue;
+  margin: 0;
+}

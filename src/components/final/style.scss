@@ -1,0 +1,80 @@
+@import "/src/styles/variables";
+
+.final {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 84px;
+
+  background: linear-gradient(
+    0deg,
+    #f9f0e5 0%,
+    rgba(249, 240, 229, 0.18) 43.05%,
+    rgba(249, 240, 229, 0) 100%
+  );
+
+  &-title {
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: $dark-blue;
+    margin: 0;
+  }
+
+  &-description {
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $main-text;
+    margin-bottom: 40px;
+  }
+
+  &-button {
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 58px;
+  }
+}
+
+.last {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0 83px 0;
+}
+
+.coast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+}
+
+.coast.coast-middle {
+    padding-inline: 38px;
+  border-left: 1px solid #c4c4c466;
+  border-right: 1px solid #c4c4c466;
+}
+
+.coast > img {
+  width: 33px;
+  height: 33px;
+  margin-right: 12px;
+}
+
+.coast > p {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: $main-text;
+}
