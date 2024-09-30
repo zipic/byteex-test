@@ -1,0 +1,133 @@
+@import "/src/styles/variables";
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 74px;
+}
+
+.reviews > h2 {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 1.28px;
+  color: $dark-blue;
+}
+.reviews > p {
+  width: 613px;
+  height: 66px;
+  text-align: center;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.45px;
+  color: $main-text;
+}
+
+.reviews-girls {
+  width: 1465px;
+  height: 252.53px;
+  margin-top: 55px;
+  margin-bottom: 76.47px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  width: 338px;
+  height: 194px;
+  max-height: 252px;
+  background: $white;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px 1px #00000014;
+  margin-right: 42px;
+  padding: 32px 39px 24px 39px;
+
+  &-title {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  &-article {
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    columns: $main-text;
+  }
+}
+
+.arrows {
+    position: absolute;
+    width: 1258px;
+    height: 22px;
+    top: 94px;
+    left: -80px;
+}
+
+.second-card {
+  height: 252px;
+}
+
+.card-logo {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  border: none;
+  background: #1c2e58;
+}
+
+.person-name {
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin: 0;
+  color: $main-text;
+}
+
+.order-button {
+    width: 369px;
+    height: 56px;
+    background: $dark-blue;
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.35px;
+    letter-spacing: 0.72px;
+    margin-top: 63px;
+    margin-bottom: 11px;
+
+    &-icon {
+      margin-left: 10px;
+    }
+  }
+
+  .order-rate {
+    display: flex;
+    align-items: center;
+    gap: 14.44px;
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    color: #828282;
+  }
